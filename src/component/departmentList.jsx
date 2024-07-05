@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { ApiContext } from "../context/Api_Context";
 const UserDetail = () => {
-  const { api, fetchApis } = useContext(ApiContext);
+  const { apis, fetchApis } = useContext(ApiContext);
 
   // using use effect
   useEffect(() => {
